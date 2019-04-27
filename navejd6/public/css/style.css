@@ -1,0 +1,164 @@
+body{
+/*	opacity: 0.5;*/
+	background-image: url("../img/space4.jpg");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	background-size: auto;
+	background-position: center;
+}
+a{
+	color: "Black";
+	text-decoration: none !important;
+}
+td{
+	background-color: skyblue;
+}
+th{
+	font-size: 200%;
+	color: White;
+	font-family: 'Niconne', cursive;
+}
+tr{
+	font-size: 100%;
+	font-family: 'Niconne', cursive;
+}
+.balitas{
+	width:15px;
+	height:25px;
+	transition: all 2s linear;
+	position: absolute;
+}
+.balitas.final{
+	top: -100px !important;
+}
+.balitas.desvanece{
+	display: none;
+}
+.balitas.final.desvanece{
+	display: none;
+}
+.meteoroout{
+	display: none;
+}
+.contenedor{
+	height:100vh;
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+.contenedor2{
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.smalltext{
+	padding-top: -500px;
+	font-size: 16px;
+	color: white;
+}
+
+
+#app{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+#naven{
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50px;
+	transition: all .3s linear;
+}
+#irlogin{
+	float:right;
+}
+#titulo1{
+	text-align: center;
+	color: #fff ;
+	font-family: 'Niconne', cursive;
+	font-size: 400%;
+}
+#titulo3{
+	font-size: 300%;
+	text-align: center;
+	color: White;
+	font-family: 'Niconne', cursive;
+}
+#titulo4{
+	font-size: 400%;
+	text-align: center;
+	color: White;
+	font-family: 'Niconne', cursive;
+}
+#ingus{
+	color: White;
+	font-size: 150%;
+	font-family: 'Niconne', cursive;
+}
+#lblNombre{
+	font-size: 300%;
+	text-align: center;
+	color: White;
+	font-family: 'Niconne', cursive;
+	background-color: #0c522e;
+	padding: 15px;
+	border-radius: 25px;
+	border:solid;
+}
+.black-box{
+	background-color: #000;
+}
+#linea1{
+	font-size: 300%;
+	text-align: center;
+	color: White;
+	font-family: 'Niconne', cursive;
+}
+#linea2{
+	color: white;
+	font-size: 200%;
+/*	text-decoration:none;  */
+	font-family: 'Niconne', cursive;
+}
+.b-line{
+	border-radius: 25px;
+	border:solid;
+	/* background-color: #0c522e; */
+	color:white;
+}
+
+#lblTiempo{
+	font-size: 300%;
+	text-align: center;
+	color: White;
+	font-family: 'Niconne', cursive;
+	background-color: #0c522e;
+	padding: 15px;
+	border-radius: 25px;
+	border:solid;
+}
+#bing{
+	font-size: 150%;
+	color: White;
+	font-family: 'Niconne', cursive;
+}
+#Botonw{
+	font-size: 150%;
+	font-family: 'Niconne', cursive;
+}
+
+@media (max-width: 450px){
+	.table th{
+		font-size: 25px;
+	}
+}
