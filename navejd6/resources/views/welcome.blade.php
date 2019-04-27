@@ -1,6 +1,6 @@
 <?php
 	// include 'config.php';
-  define('HOST_API','http://localhost/galaxy-ship-game/navejd6/server.php/');
+  define('HOST_API','http://localhost/spacey/navejd6/server.php/');
  ?>
 <!DOCTYPE html>
 <html>
@@ -18,8 +18,6 @@
 <body>
 <div class="contenedor2" d-flex justify-content-center align-items-center >
  <div class="text-center" style="width:200px">
-	<!-- Main Form -->
-
 		<h3 id="titulo1" >
 		SpaceY
 		</h3>

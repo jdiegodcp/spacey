@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,13 +8,11 @@
 
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title >
 	Puntaje de Juego
 	</title>
 </head>
 <body>
-<!-- <img id="imagegif" src="img/gameover.gif" alt="Smiley face" height="80%" width="100%"> -->
 	<div class="table-responsive">
 	  <table >
 		  <p id="titulo3">Felicidades</p>
@@ -40,26 +37,20 @@
 	</div>
 
 	<div align="center">
-		<!-- <button   onclick="IngresaJuego()" class="b-line">
-			<a id="linea2" href="scoresworld.php" >
-			Ver Puntaje en el Mundo</a>
-		</button> -->
 		<button onclick="IngresaJuego()" class="btn btn-dark b-line" >
-			<!-- Ingresa -->
 			<a id="linea2" href="scoresworld.php" >
 			Ver Puntaje en el Mundo</a>
 		</button>
 	</div >
-
 	<script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 	<script type="text/javascript">
-
-
 		var jugador = localStorage.getItem("jugador");
 		var tiempo = localStorage.getItem("tiempo");
 		$("#lblNombre").html(jugador);
 		$("#lblTiempo").html(tiempo);
+		localStorage.removeItem("jugador");
+		localStorage.removeItem("tiempo");
 	</script>
 </body>
 </html>
