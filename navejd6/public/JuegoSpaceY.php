@@ -1,6 +1,6 @@
 <?php
 	// include 'config.php';
-	define('HOST_API','http://localhost/galaxy-ship-game/navejd6/server.php/');
+	define('HOST_API','http://spacey.scepscter.me/');
  ?>
 <!DOCTYPE html>
 <html>
