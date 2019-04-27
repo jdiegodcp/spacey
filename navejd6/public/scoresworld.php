@@ -24,36 +24,27 @@ Puntajes a Nivel Global
  <a id="Botonw" href="index.php" class="btn btn-dark b-line">
       Jugar de nuevo
  </a>
- <!-- <button id="Botonw" href="index.php" class="btn btn-dark b-line" >
-   Jugar de nuevo
- </button> -->
 </div>
 <p></p>
 <p></p>
 <div class="container-fluid">
     <div class="table-responsive">
       <table class="table">
-        <thead >
+        <thead id="cabeceratabla">
           <tr>
             <th scope="col" >Position</th>
             <th scope="col" >Nickname</th>
-      <!--       <th scope="col" style="color: White">Country</th> -->
             <th scope="col" >Score</th>
           </tr>
         </thead>
         <tbody id="cuerpoRanking">
-
         </tbody>
       </table>
       </div>
 </div>
-
 <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
   <script type="text/javascript">
-
-
-
     var urlBase = "<?php echo HOST_API; ?>";
     var url = urlBase+"api/cargar-puntajes";
       $.ajax({
@@ -81,7 +72,6 @@ Puntajes a Nivel Global
             console.log("hay un erorro");
           }
         })
-// POR AQUI
       function mostrartabla(a){
       var cuerpoRanking = $("#cuerpoRanking");
       var i,record,fila,celda;
@@ -122,47 +112,6 @@ Puntajes a Nivel Global
     }
     return cadTime;
   }
-
-
-
-
-    // var arrayRecords = localStorage.getItem("arrayRecords");
-    // arrayRecords = JSON.parse(arrayRecords);
-    // var i,record,fila,celda;
-    // var cuerpoRanking = $("#cuerpoRanking");
-    // var aux;
-    // for ( i = 0; i < Number(arrayRecords.length)-1; i++)
-    // {
-    //     for (j = i+1; j < Number(arrayRecords.length); j++)
-    //     {
-    //       if(Number(arrayRecords[j].torden)<=Number(arrayRecords[i].torden))
-    //       {
-    //         aux=arrayRecords[i]
-    //         arrayRecords[i]=arrayRecords[j];
-    //         arrayRecords[j]=aux;
-    //       }
-    //     }
-    // }
-    // for ( i = 0; i < arrayRecords.length; i++)
-    // {
-    //   record = arrayRecords[i];
-    //   fila = $("<tr>");
-    //   celda = $("<td>");
-    //   celda.html(i+1);
-    //   fila.append(celda);
-
-    //   celda = $("<td>");
-    //   celda.html(record.jugador);
-    //   fila.append(celda);
-
-    //   celda = $("<td>");
-    //   celda.html(record.tiempo);
-    //   fila.append(celda);
-
-    //   cuerpoRanking.append(fila);
-    // }
   </script>
-<!-- <img src="img/space1.jpg" alt="Girl in a jacket" style="padding-left: 30%;"> -->
-
 </body>
 </html>

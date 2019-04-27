@@ -18,8 +18,6 @@
 <body>
 <div class="contenedor2" d-flex justify-content-center align-items-center >
  <div class="text-center" style="width:200px">
-	<!-- Main Form -->
-
 		<h3 id="titulo1" >
 		SpaceY
 		</h3>

@@ -58,11 +58,16 @@ tr{
 	color: white;
 }
 
-
+#cuerpoRanking{
+	font-size: 25px;
+}
 #app{
 	position: relative;
 	width: 100%;
 	height: 100%;
+}
+#cabeceratabla{
+	background: #106792;
 }
 
 .center {
