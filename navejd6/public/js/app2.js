@@ -1,5 +1,5 @@
 var phpadd="<?php	include 'config.php';?>";
-var urlBase = "http://localhost/galaxy-ship-game/navejd6/server.php/";
+var urlBase = "http://spacey.scepscter.me//";
 $("#formLogin").on("submit",function(evt){
 	evt.preventDefault();
 	var nickname = $("#nickname").val();
